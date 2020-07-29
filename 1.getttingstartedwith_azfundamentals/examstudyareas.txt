@@ -1,0 +1,5 @@
+AZ-900 Study Areas	Weights
+Understand cloud concepts	15-20%
+Understand core Azure services	30-35%
+Understand security, privacy, compliance, and trust	25-30%
+Understand Azure pricing, service level agreements, and lifecycle	20-25%
