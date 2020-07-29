@@ -1,0 +1,9 @@
+The concept of economies of scale is the ability to reduce costs and gain efficiency when operating at a larger scale in comparison to operating at a smaller scale.
+
+
+This is apparent to end users in a number of ways, 
+one of which is the ability to acquire hardware at a lower cost than if a single user or smaller business were purchasing it.
+
+Storage costs, for example, have decreased significantly over the last decade due in part to cloud providers' 
+ability to purchase larger amounts of storage at significant discounts.
+They are then able to use that storage more efficiently and pass on those benefits to end users in the form of lower prices.

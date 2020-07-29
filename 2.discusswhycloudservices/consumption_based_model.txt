@@ -1,0 +1,6 @@
+ consumption-based model, which means that end users only pay for the resources that they use. Whatever they use is what they pay for.
+
+
+KEY WORDS:
+
+high availability, agility, elasticity, fault tolerance, and CapEx vs. OpEx.
