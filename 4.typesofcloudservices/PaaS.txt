@@ -1,0 +1,30 @@
+PaaS
+----
+
+Platform as a Service (PaaS) provides an environment for building, testing, and deploying software applications. 
+The goal of PaaS is to help create an application as quickly as possible without having to worry about managing the underlying infrastructure.
+For example, when deploying a web application using PaaS, you don't have to install an operating system, web server, or even system updates.
+PaaS is a complete development and deployment environment in the cloud, with resources that enable organizations to deliver everything from simple cloud-based apps 
+to sophisticated cloud-enabled enterprise applications.
+
+Resources are purchased from a cloud service provider on a pay-as-you-go basis and accessed over a secure Internet connection.
+
+
+
+PaaS characteristics
+--------------------
+
+Upfront costs.
+-------------
+There are no upfront costs, and users pay only for what they consume.
+
+User ownership.
+---------------
+The user is responsible for the development of their own applications. 
+However, they are not responsible for managing the server or infrastructure. This allows the user to focus on the application or workload they want to run.
+
+Cloud provider ownership. 
+------------------------
+The cloud provider is responsible for operating system management, and network and service configuration. 
+Cloud providers are typically responsible for everything apart from the application that a user wants to run.
+They provide a complete managed platform on which to run an application.
