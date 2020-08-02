@@ -1,0 +1,61 @@
+RESOURCE GROUP
+--------------
+
+A resource group is a unit of management for your resources in Azure.
+You can think of your resource group as a container that allows you to aggregate and manage all the resources required for your application in a single manageable unit.
+This allows you to manage the application collectively over its lifecycle, rather than manage components individually.
+Before any resource can be provisioned, you need a resource group for it to be placed in.
+
+Remember that when you delete a resource group you delete all resources contained within it.
+
+
+
+WORKING CONDITIONS
+------------------
+
+When creating and placing resources within resource groups there are a few considerations:
+
+Each resource must exist in one, and only one, resource group.
+
+A resource group can contain resources that reside in different regions.
+
+You decide how you want to allocate resources to resource groups based on what makes the most sense for your organization.
+
+You can add or remove a resource to a resource group at any time.
+
+You can move a resource from one resource group to another.
+
+Resources for an application do not need to exist in the same resource group. However, it is recommended that you keep them in the same resource group for ease of management.
+
+
+
+Life cycle
+----------
+If you delete a resource group, all resources contained within are also deleted.
+Organizing resources by life cycle can be useful in non-production environments, where you might try an experiment, but then dispose of it when done.
+Resource groups make it easy to remove a set of resources at once.
+
+
+
+Authorization
+-------------
+Resource groups are also a scope for applying role-based access control (RBAC) permissions.
+By applying RBAC permissions to a resource group, you can ease administration and limit access to allow only what is needed.
+
+
+
+
+Options to create Az-Resource group
+-----------------------------------
+Azure portal
+Azure PowerShell
+Azure CLI
+Templates
+Azure SDKs (like .NET, Java)
+
+
+
+NetworkWatcherRG. You can ignore this resource group, it's created automatically to enable Network Watcher in Azure virtual networks
+
+
+

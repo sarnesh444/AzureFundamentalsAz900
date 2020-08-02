@@ -1,0 +1,61 @@
+A region  is a geographical area on the planet containing at least one, 
+but potentially multiple datacenters that are in close proximity and networked together with a low-latency network.
+
+
+For most Azure services, when you deploy a resource in Azure, you choose the region where you want your resource to be deployed.
+
+
+
+
+
+SPECIAL AZURE REGIONS
+---------------------
+
+Special Azure regions
+Azure has specialized regions that you might want to use when building out your applications for compliance or legal purposes. These include:
+
+
+US DoD Central, US Gov Virginia, US Gov Iowa and more:
+-----------------------------------------------------
+These are physical and logical network-isolated instances of Azure for US government agencies and partners.
+These datacenters are operated by screened US persons and include additional compliance certifications.
+
+China East, China North and more:
+---------------------------------
+These regions are available through a unique partnership between Microsoft and 21Vianet, whereby Microsoft does not directly maintain the datacenters.
+
+
+
+
+
+
+REGION PAIRS
+------------
+
+It's possible that a large enough disaster could cause an outage large enough to affect even two datacenters.
+That's why Azure creates region pairs.
+Each Azure region is paired with another region within the same geography (such as US, Europe, or Asia) at least 300 miles away,which together make a region pair.
+The exception is Brazil South, which is paired with a region outside its geography.
+
+
+
+
+Physical isolation
+------------------
+When possible, Azure prefers at least 300 miles of separation between datacenters in a regional pair, although this isn't practical or possible in all geographies.
+Physical datacenter separation reduces the likelihood of natural disasters, civil unrest, power outages, or physical network outages affecting both regions at once.
+
+Platform-provided replication.
+------------------------------
+Some services such as Geo-Redundant Storage provide automatic replication to the paired region.
+
+Region recovery order.
+---------------------
+In the event of a broad outage, recovery of one region is prioritized out of every pair.
+Applications that are deployed across paired regions are guaranteed to have one of the regions recovered with priority.
+
+Sequential updates.
+-------------------
+Planned Azure system updates are rolled out to paired regions sequentially (not at the same time) to minimize downtime, the effect of bugs,
+and logical failures in the rare event of a bad update.
+

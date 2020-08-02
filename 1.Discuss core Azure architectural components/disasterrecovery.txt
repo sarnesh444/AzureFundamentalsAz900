@@ -1,0 +1,21 @@
+1.SINGLE VM
+A single virtual machine with premium storage has an SLA of 99.9%. 
+You can quickly migrate existing virtual machines to Azure through “lift and shift”. 
+Lift and shift is a no-code option where each application is migrated as-is, providing the benefits of the cloud without the risks or costs of making code changes.
+
+
+
+2.AVAILABILITY SETS
+By placing virtual machines in an availability set, you protect against datacenter failures and increases the SLA to 99.95%.
+
+
+
+3.AVAILABILITY ZONES
+Adding virtual machines to availability zones protects from entire datacenter failures and increases the SLA to 99.99%,
+which is highest level of protection that is provided.
+
+
+
+4.REGION PAIRS
+For multi-region disaster recovery, region pairs protect and provide data residency boundaries.
+
