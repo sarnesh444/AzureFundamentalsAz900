@@ -1,0 +1,37 @@
+CONTAINER
+---------
+
+If you wish to run multiple instances of an application on a single host machine, 
+containers are an excellent choice. The container orchestrator can start, stop, and scale out application instances as needed.
+
+Containers are a virtualization environment.
+
+Containers reference the operating system of the host environment that runs the container.
+Unlike virtual machines you do not manage the operating system.
+Containers are lightweight and are designed to be created, scaled out, and stopped dynamically.
+Containers allows you to respond to changes on demand and quickly restart in case of a crash or hardware interruption.
+Azure supports Docker containers.
+
+
+Azure Container Instances 
+-------------------------
+ 
+offers the fastest and simplest way to run a container in Azure without having 
+to manage any virtual machines or adopt any additional services.
+It is a PaaS offering that allows you to upload your containers, which it will run for you.
+
+
+Azure Kubernetes Service
+-------------------------
+
+The task of automating, managing, and interacting with a large number of containers is known as orchestration. 
+Azure Kubernetes Service (AKS)  is a complete orchestration service for containers with distributed architectures and large volumes of containers. 
+Orchestration is the task of automating and managing a large number of containers and how they interact.
+
+
+Use containers in your solutions
+--------------------------------
+Containers are often used to create solutions using a microservice architecture.
+This architecture is where you break solutions into smaller, independent pieces. 
+For example, you may split a website into a container hosting your front end, another hosting your back end, and a third for storage.
+This split allows you to separate portions of your app into logical sections that can be maintained, scaled, or updated independently.
