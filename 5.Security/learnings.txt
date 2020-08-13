@@ -1,0 +1,68 @@
+Azure Active Directory
+----------------------
+
+Maintains Identity and access management of employees using Azure internal and external resources
+
+Has certain tiers and provides features accordingly
+
+1.free
+2.office 265
+3.premium 1
+4.premium 2
+
+
+
+Azure Security Center
+---------------------
+
+Shows visuals that depicts the level of security of application on azure
+
+
+
+Multifactor Authentication
+--------------------------
+
+Can have access to the az portal only when authenticated successfully from a secondary source like mobile
+
+
+
+
+Key-Vault
+---------
+
+It is a key value pair mapping 
+All the secret and cryptographic keys can be stored and accessed securely from here 
+
+
+DDOS(Distributed Denial of Service)
+-----------------------------------
+The attacker launches multiple systems to make requests to the server and there is a flood of traffic
+Thereby crashing the server 
+The server must be configured to ensure that there is autoscaling for needed req and denial for malicious attacks
+
+
+Firewall
+--------
+is a service that validates the incoming traffic and checks its viability and protects the resources from attacks
+
+
+Azure Information Protection
+----------------------------
+protects data/info such as emails with encryption
+
+
+Azure policies
+--------------
+create policies and control the properties of the resource
+
+
+Role based access control
+-------------------------
+
+based on the role in the azure active dir the emp will have access to resources and resource groups aka row level security
+
+
+Service principal
+-----------------
+A Service Principal is an application within Azure Active Directory, which is authorized to access resources or resource group in Azure.
+
